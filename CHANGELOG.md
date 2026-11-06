@@ -9,4 +9,5 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ### Added
 
+- Add RFC 9457 problem details: typed catalog with templated details, leak-safe `fromError`, hardened `parseProblem`, `toResponse` and `catalogToMarkdown`.
 - Initial project structure from the factory utility template.

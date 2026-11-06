@@ -1,17 +1,16 @@
 # @trysac/problem-details
 
-> RFC 9457 problem+json errors from a typed catalog with templated details, leak-safe error mapping, spec-compliant parsing and Markdown docs TypeScript library for Node.js 20+, published as ES modules with type declarations. MIT.
+> TypeScript library for Node.js 20+ that builds, parses and documents RFC 9457 problem+json errors from a typed catalog, with templated details, leak-safe error mapping and Markdown docs. Published as ES modules with type declarations, no runtime dependencies, MIT licensed.
 
 ## Docs
 
-- [README](README.md): problem, installation and usage example
+- [README](README.md): problem, installation, usage example and public API
 - [AGENTS.md](AGENTS.md): commands, folder map, conventions and limits for contributors and agents
 - [Architecture](docs/ARCHITECTURE.md): modules and boundaries
-- [Testing](docs/TESTING.md): how tests and coverage work
-- [Decisions](docs/decisions/0001-record-architecture-decisions.md): architecture decision records
+- [Testing](docs/TESTING.md): test files and how coverage works
+- [Security](docs/SECURITY.md): threat model, defended and not defended
 
 ## Optional
 
 - [Stack](docs/STACK.md): tools used and discarded
-- [Project record](docs/PROJECT.md): objective, scope, timeline and effort metrics
-- [Changelog](CHANGELOG.md)
+- [Project record](docs/PROJECT.md): objective, scope and effort metrics
