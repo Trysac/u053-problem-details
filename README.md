@@ -1,7 +1,6 @@
 # problem-details
 
-[![npm version](https://img.shields.io/npm/v/@trysac/problem-details.svg)](https://www.npmjs.com/package/@trysac/problem-details)
-[![license: MIT](https://img.shields.io/npm/l/@trysac/problem-details.svg)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![CI](https://github.com/Trysac/u053-problem-details/actions/workflows/ci.yml/badge.svg)](https://github.com/Trysac/u053-problem-details/actions/workflows/ci.yml)
 
 RFC 9457 problem+json errors from a typed catalog with templated details, leak-safe error mapping, spec-compliant parsing and Markdown docs.
@@ -12,9 +11,15 @@ HTTP APIs return errors in ad-hoc shapes, leak stack traces in 500 responses and
 
 ## Install
 
+Not published to npm yet. Build it from a clone, then install it from the local path:
+
 ```sh
-npm install @trysac/problem-details
+git clone https://github.com/Trysac/u053-problem-details.git
+cd u053-problem-details && npm ci && npm run build
+cd ../your-project && npm install ../u053-problem-details
 ```
+
+Imports keep the package name: `import { ... } from "@trysac/problem-details"`.
 
 Requires Node.js 20 or newer. The package ships ES modules with TypeScript declarations and has no runtime dependencies.
 
